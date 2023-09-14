@@ -23,15 +23,17 @@ RENAME: This is used to rename an object existing in the database.
 
 ### SQL QUERY: 
 
+create table student(rollno int primary key, name varchar(20),age int,address varchar(100),phno varchar(10));
 
 ### OUTPUT:
+![Screenshot 2023-09-14 092941](https://github.com/Yamunaasri/F2_DBMS/assets/115707860/9a80a4f3-376a-4e99-b402-6e5eaca4cad6)
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+alter table student add dept varchar(10);
 ### OUTPUT:
-
+![Screenshot 2023-09-14 093422](https://github.com/Yamunaasri/F2_DBMS/assets/115707860/a5dfed70-a471-4049-8c1e-7a7aa1641c07)
 
 ### 3) Drop the student table
  
